@@ -1,7 +1,8 @@
 public class Primitiv {
-    String st;
-    int storage(String s)
-    {
-        return s.length() * 2;
+    static int i = 47;
+        static void increment()
+        {
+            Primitiv.i++;
+        }
     }
-}
+
